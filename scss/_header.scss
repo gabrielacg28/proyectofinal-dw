@@ -1,0 +1,20 @@
+@import "fuentes-colores";
+
+nav {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+
+    @media (min-width: 320px) and (max-width:400px) {
+        font-size: 15px;
+    }
+    @media (min-width: 402px) and (max-width:768px) {
+        font-size: 23px;
+    }
+
+    @media (min-width: 800px) and (max-width:2560px) {
+        font-size: 30px;
+    }
+
+}
+

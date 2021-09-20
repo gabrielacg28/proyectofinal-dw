@@ -1,0 +1,77 @@
+@import "fuentes-colores";
+
+footer {
+    background-color: $bgcolor-principal;
+    background-color: $bgcolor-principal;
+    font-size: 23px;
+
+    @media (min-width: 320px) and (max-width:400px) {
+        font-size: 15px;
+    }
+
+    @media (min-width: 402px) and (max-width:768px) {
+        font-size: 23px;
+    }
+
+    @media (min-width: 800px) and (max-width:2560px) {
+        font-size: 30px;
+    }
+
+}
+
+.nav-link {
+    color: white !important;
+}
+
+ul {
+    list-style: none;
+    display: inline;
+    justify-content: space-around !important;
+    align-items: center !important;
+
+    @media (min-width: 320px) and (max-width:400px) {
+        justify-content: center !important;
+        list-style: none;
+    }
+}
+
+.whatsapp {
+    a {
+        img {
+            width: 50px;
+            height: 50px;
+            position: fixed;
+            bottom: 2%;
+            right: 2%;
+            z-index: 100;
+            transition: all 1.5s;
+
+            &:hover {
+                transform: rotate(1080deg);
+            }
+
+            @media (min-width: 320px) and (max-width:400px) {
+                width: 40px;
+                height: 40px;
+                bottom: 20%;
+                left: 2%;
+
+            }
+
+            @media (min-width: 402px) and (max-width:768px) {
+                width: 40px;
+                height: 40px;
+                right: 3%;
+
+            }
+
+        }
+
+    }
+}
+
+.copyright {
+    font-size: 8px !important;
+    color: white;
+    text-align: center;
+}

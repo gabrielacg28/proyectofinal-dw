@@ -1,0 +1,15 @@
+/* Varios parametros */
+
+@mixin varios-parametros($font, $display, $justify, $align) {
+    font-size: $font;
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+  
+    }
+
+
+header {
+    @include varios-parametros(xx-large, flex, space-between, center )
+}
+

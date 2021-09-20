@@ -1,0 +1,28 @@
+/* variables */
+
+$bgcolor-principal: black;
+$color-principal: white;
+$color-segundario: black;
+$fontfamily-principal: 'Bebas Neue', cursive;
+
+
+
+a,
+li {
+    font-family: $fontfamily-principal;
+    color: $color-principal;
+}
+
+p {
+    font-family: $fontfamily-principal;
+    color: $color-segundario
+}
+
+h1,h2 {
+    text-align: center;
+    font-family: $fontfamily-principal;
+   color: $bgcolor-principal;
+  font-size: 30px;
+  padding: 20px;
+}
+
